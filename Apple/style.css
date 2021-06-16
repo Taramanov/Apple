@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    
+}
+
+.header__nav {
+    width: 100%;
+    height: 44px;
+    background-color: #000000cb;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px) saturate(300%);
+    
+    
+}
+
+.header__nav ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.header__nav ul li {
+    margin: 0 40px;
+}
+
+.header__nav ul >li >a {
+    color: #c7c7c7;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 0;
+    transition: 0.2s all ease-in-out;
+}
+
+.header__nav ul >li >a:hover{
+color: #fff;
+
+}
+.header__nav ul > li > a >i{
+    font-size: 20px;
+    
+}
+
+.header__text {
+    width: 100%;
+    height: 50px;
+    color: grey;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.header__text span a {
+    color: #2997FF;
+    font-size: 14px;
+}
+.header__text span a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+section h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+section h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+section p {
+    font-size: 17px;
+    color: #86868b;
+    line-height: 1.5;
+}
+.section__link{
+    margin-top: 15px;
+}
+.section__link a {
+    font-size: 19px;
+    margin: 0 15px ;
+    color: #06c;
+    transition: 0.2s all ease-in-out;
+}
+.section__link a:hover {
+    text-decoration: underline;
+}
+.section__link a i{
+    margin-left: 5px;
+    font-size: 13px;
+}
+ section img {
+     width: 897px;
+     height: 369px;
+     
+ }
+
+.dark {
+    width: 100%;
+    height: 600px;
+    background-image: url(./1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.dark >h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.dark >h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.dark >p {
+    font-size: 17px;
+    color: #86868b;
+    line-height: 1.5;
+}
+
+.ipad {
+    width: 100%;
+    height: 600px;
+    background-image: url(./ipad.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.ipad >h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 70px;
+    margin-top: 13px;
+}
+
+.ipad >h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.imac {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.mac {
+    width: 50%;
+    height: 600px;
+    background-image: url(./promo_imac__crg641tip4q6_large.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.mac h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+    padding-top: 50px;
+    margin-top: 13px;
+}
+.mac h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #464647;
+}
+
+.watch {
+    width: 50%;
+    height: 600px;
+    background-image: url(./promo_watch_series_6_lte__f8lrasjnry2y_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.watch h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.watch img {
+    width: 150px;
+    height: 55px;
+    margin-top: 50px;
+}
+
+.fitnes {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    
+}
+
+.fitnes__main {
+    width: 45%;
+    height: 600px;
+    text-align: center;
+}
+
+.fitnes__one {
+    width: 45%;
+    height: 600px;
+    text-align: center;
+}
+
+.fitnes__main h1 {
+    padding-top: 50px;
+    margin-top: 13px;
+}
+
+.fitnes__main h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #464647;
+}
+
+.fitnes__one h1 {
+    padding-top: 50px;
+    margin-top: 13px;
+}
+
+.fitnes__one h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #464647;
+}
+.fitnes img {
+    margin-top: 50px;
+}
+
+
+.cash {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    
+}
+
+.card {
+    width: 45%;
+    height: 6   00px;
+    text-align: center;
+}
+
+
+
+.card h1 {
+    padding-top: 50px;
+    margin-top: 13px;
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #464647;
+}
+
+.card >img {
+    margin-top: 40px;
+}
+
+.invasion{
+    width: 45%;
+    height: 600px;
+    background-image: url(./promo_invasion__ghsczle85ai6_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.invasion h1 {
+    position: absolute;
+    bottom: 155px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.invasion h2 {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.invasion h3 {
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+.invasion h3:hover{
+    text-decoration: underline;
+}
+.invasion h3 i{
+    margin-left: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 1015px;
+    background-color: #F5F5F7;
+    margin-top: 13px;
+}
+
+.footer__main {
+    width: 80%;
+    height: 520px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-bottom: 0.5px solid #86868bb2;
+}
+
+.footer__main p {
+    font-size: 14px;
+    color: #86868b;
+    margin: 10px 0;
+}
+
+.footer__links {
+    width: 80%;
+    margin: 0 auto;
+    /* padding-top: 15px; */
+    display: flex;
+    
+}
+.footer__links ul {
+    margin-right: 80px;
+}
+.footer__links ul p {
+    font-size: 12px;
+    color: #1d1d1f;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.footer__links ul li a {
+    font-size: 12px;
+    color: #515154;
+    line-height: 2;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer__links ul li a:hover {
+    text-decoration: underline;
+}
+
+.wrap {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    
+}
+.wrap span {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    color: #515154;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #86868bb2;border-bottom: 0.;
+}
+
+.wrap span a {
+    color: #2997FF;
+    transition: 0.3s all ease-in-out;
+}
+
+.wrap span a:hover {
+    text-decoration: underline;
+}
+
+.last{
+    width: 80%;
+    margin: 20px auto;
+    
+    display: flex;
+    position: relative;
+}
+.last span {
+    font-size: 12px;
+    color: #515154;
+    margin-right: 20px;
+}
+.last p {
+    margin-left: 15px;
+    font-size: 12px;
+    color: #515154;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.last p:hover {
+    text-decoration: underline;
+}
+
+.last h3 {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    color: #515154;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.last h3:hover {
+    text-decoration: underline;
+}
